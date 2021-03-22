@@ -22,15 +22,6 @@
 - 📄 CSS `@apply` / `@screen` directives transforms
 - 🎳 Support Utility Groups - e.g. `bg-gray-200 hover:(bg-gray-100 text-red-300)`
 
-## Install
-
-```bash
-yarn add vue-cli-plugin-windicss -D
-# npm i vue-cli-plugin-windicss -D
-```
-
-:warning: This module is a pre-release, please report any [issues](https://github.com/windicss/vue-cli-plugin-windicss/issues) you find.
-
 ## Setup
 
 Install using Vue CLI. (Vue CLI 4+ is recommended)
@@ -38,6 +29,8 @@ Install using Vue CLI. (Vue CLI 4+ is recommended)
 ```bash
 vue add windicss
 ```
+
+:warning: This module is a pre-release, please report any [issues](https://github.com/windicss/vue-cli-plugin-windicss/issues) you find.
 
 ## Configuration
 
