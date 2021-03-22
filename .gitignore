@@ -1,0 +1,9 @@
+inspo
+node_modules
+yarn-error.log
+dist
+example/dist
+.idea
+.env
+TODO.md
+tmp
