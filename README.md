@@ -5,8 +5,8 @@
 </p>
 
 <p align='center'>
-<a href='https://www.npmjs.com/package/nuxt-windicss'>
-<img src='https://img.shields.io/npm/v/nuxt-windicss?color=0EA5E9&label='>
+<a href='https://www.npmjs.com/package/vue-cli-plugin-windics'>
+<img src='https://img.shields.io/npm/v/vue-cli-plugin-windics?color=0EA5E9&label='>
 </a>
 </p>
 
