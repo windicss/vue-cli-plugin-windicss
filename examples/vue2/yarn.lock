@@ -568,16 +568,18 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
-"@windicss/plugin-utils@0.9.4":
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.9.4.tgz#6f1212f672257a391e0077a7baf172a55282e631"
-  integrity sha512-udA6kvgj1/zUrDvKw8To0BqG3PsaDwJkOHgT0GnEzyXg3b37TUEJ/8H1sW98ai12K5jL+ovd6/8hmve0wkvvoA==
+"@windicss/plugin-utils@0.10.4":
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-utils/-/plugin-utils-0.10.4.tgz#ed9163b09e030f7358cc4742b1f2b6c92d084d5d"
+  integrity sha512-jQu69qzA56Lv18OK8U4mUTDV17st4EdPawQuaRG2VNK+ZEQWYsMNnqGxhzDTl/NhWTGCcTb3D6mlFPNo0QDOFg==
   dependencies:
     debug "^4.3.2"
     fast-glob "^3.2.5"
+    magic-string "^0.25.7"
     micromatch "^4.0.2"
+    pirates "^4.0.1"
     sucrase "^3.17.1"
-    windicss "^2.5.2"
+    windicss "^2.5.7"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -6815,7 +6817,7 @@ vue-cli-plugin-windicss@../../:
   version "0.1.0"
   dependencies:
     defu "^3.2.2"
-    windicss-webpack-plugin "^0.2.6"
+    windicss-webpack-plugin "^0.2.9"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
@@ -6880,8 +6882,10 @@ watchpack@^1.7.4:
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
+    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
+    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
@@ -7074,23 +7078,23 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-windicss-webpack-plugin@^0.2.6:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/windicss-webpack-plugin/-/windicss-webpack-plugin-0.2.6.tgz#2946b67dcc9d53de3ca7edc3c39aa6b6df76b4a8"
-  integrity sha512-+qx6y+RNHJZwGceHjPEkVRQ8biteEJ71RHJwwUmqE2P7EbcNQN/2DGDYY0oDXGGoICNcAGxrbxdcn3VLhWKqHg==
+windicss-webpack-plugin@^0.2.9:
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/windicss-webpack-plugin/-/windicss-webpack-plugin-0.2.9.tgz#fc5fbcacd1cd1ccb7fb192aaee9e89cbf2979b35"
+  integrity sha512-k5fyh8kc0RsPolzRl6dAbtXB6WI61ohZ4irtGEjVtbjSiYtCNgcINDebJ9PazXznwR0nHYAGx9qzMTCk8f92tQ==
   dependencies:
-    "@windicss/plugin-utils" "0.9.4"
+    "@windicss/plugin-utils" "0.10.4"
     debug "^4.3.1"
     loader-utils "^2.0.0"
     magic-string "^0.25.7"
     upath "^2.0.1"
     webpack-virtual-modules "^0.4.2"
-    windicss "^2.5.3"
+    windicss "^2.5.8"
 
-windicss@^2.5.2, windicss@^2.5.3:
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.5.4.tgz#e89cd614cc4a7c2c13cc5af588642959de6746db"
-  integrity sha512-K+w/TOxbY38bIjRyJVgQ29ndZ0xZsbpf4a7wClqyFDQdCTbuCnzChBMpO13BqLmksIaHRzL46TeBRpFyV6n5/A==
+windicss@^2.5.7, windicss@^2.5.8:
+  version "2.5.8"
+  resolved "https://registry.yarnpkg.com/windicss/-/windicss-2.5.8.tgz#254980044de3031276062b90cfce53c13ee489bf"
+  integrity sha512-zHkozdIqv1YTIGHBOHeFGsuZVTN5yAMz6FW5Bp8im9JZxSRZLOLKdJB0K75SL13iLHKXHrC1ukwJjjL8CohrUw==
 
 with@^7.0.0:
   version "7.0.2"
