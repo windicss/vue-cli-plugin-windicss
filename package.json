@@ -43,10 +43,10 @@
   },
   "devDependencies": {
     "@types/debug": "^4.1.5",
-    "@types/loader-utils": "^2.0.1",
+    "@types/loader-utils": "^2.0.2",
     "@types/lodash": "^4.14.168",
-    "@types/node": "14.14.35",
-    "@types/webpack": "^4.41.26",
+    "@types/node": "14.14.37",
+    "@types/webpack": "^5.28.0",
     "@vue/cli-service": "^4.5.12",
     "@vue/cli-shared-utils": "^4.5.12",
     "@windicss/plugin-utils": "^0.11.2",
@@ -56,13 +56,13 @@
     "loader-utils": "^2.0.0",
     "lodash": "^4.17.21",
     "pug": "^3.0.2",
-    "release-it": "^14.4.1",
-    "rollup-plugin-typescript2": "^0.29.0",
+    "release-it": "^14.5.0",
+    "rollup-plugin-typescript2": "^0.30.0",
     "typescript": "^4.2.3",
     "upath": "^2.0.1"
   },
   "dependencies": {
     "defu": "^3.2.2",
-    "windicss-webpack-plugin": "^0.3.1"
+    "windicss-webpack-plugin": "^0.3.2"
   }
 }
