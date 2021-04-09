@@ -1,7 +1,7 @@
 <template>
 <div class="bg-red-50 h-full">
   <h1 data-testid="title" class="text-2xl font-bold text-center py-5 text-green-50 mb-10">
-    Vue CLI WindiCSS Module
+    Vue CLI Windi CSS Module
     <span>test</span>
   </h1>
   <img data-testid="smallImg" :src="require('./assets/image/small.svg')" alt="small svg" class="w-20 absolute left-1/2 top-45 z-20">
