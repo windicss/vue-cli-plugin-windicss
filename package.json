@@ -62,7 +62,7 @@
     "upath": "^2.0.1"
   },
   "dependencies": {
-    "defu": "^3.2.2",
+    "defu": "^4.0.1",
     "windicss-webpack-plugin": "^0.3.3"
   }
 }
