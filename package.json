@@ -63,6 +63,6 @@
   },
   "dependencies": {
     "defu": "^3.2.2",
-    "windicss-webpack-plugin": "^0.3.3"
+    "windicss-webpack-plugin": "^0.4.1"
   }
 }
