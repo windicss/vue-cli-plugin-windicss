@@ -64,17 +64,13 @@ yarn remove vue-cli-plugin-tailwind
 ```js
 export default {
   scan: {
-    dirs: ['src'],
+    dirs: ['src', 'public'],
     exclude: [
       'node_modules',
       '.git',
-      'public/**/*',
-      '*.template.html',
-      'index.html'
     ],
     include: []
   },
-  transformCSS: 'pre',
 }
 ```  
 
@@ -84,7 +80,7 @@ export default {
 
 #### Disable Preflight
 
-_ngridsome.config.js_
+_vue.config.js_
 ```js
 module.exports = {
   // ...
@@ -95,12 +91,6 @@ module.exports = {
   }
 }
 ```
-
-## Caveats
-
-### Scoped Style
-
-`@media` directive with scoped style can **only work** with `css` `postcss` `scss` but not `sass`, `less` nor `stylus`
 
 ## Credits
 

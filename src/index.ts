@@ -16,7 +16,6 @@ const plugin : ServicePlugin = (api: PluginAPI, options: VueCliPluginWindiOption
       ],
       include: []
     },
-    transformCSS: 'pre',
   }
 
   const config = defu.arrayFn(options.pluginOptions?.windicss ?? {}, defaultConfig) as UserOptions
