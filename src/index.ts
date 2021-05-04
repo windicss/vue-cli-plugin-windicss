@@ -9,13 +9,10 @@ const plugin : ServicePlugin = (api: PluginAPI, options: VueCliPluginWindiOption
   const defaultConfig : UserOptions = {
     root: api.getCwd(),
     scan: {
-      dirs: ['src'],
+      dirs: ['src', 'public'],
       exclude: [
         'node_modules',
         '.git',
-        'public/**/*',
-        '*.template.html',
-        'index.html'
       ],
       include: []
     },
