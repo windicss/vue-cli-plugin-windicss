@@ -19,7 +19,7 @@
 - ⚡️ **It's FAST** - 20~100x times faster than [vue-cli-plugin-tailwind](https://github.com/forsartis/vue-cli-plugin-tailwind)
 - 🧩 On-demand CSS utilities (Compatible with Tailwind CSS v2) and native elements style resetting
 - 🍃 Load configurations from `tailwind.config.js`
-- 📄 CSS `@apply` / `@screen` directives transforms
+- 📄 Use `@apply` / `@screen` directives in any file: Vue SFC, Less, SCSS, SASS, PostCSS, Stylus
 - 🎳 Support Utility Groups - e.g. `bg-gray-200 hover:(bg-gray-100 text-red-300)`
 
 ## Setup
@@ -29,8 +29,6 @@ Install using Vue CLI. (Vue CLI 4+ is recommended)
 ```bash
 vue add windicss
 ```
-
-:warning: This module is a pre-release, please report any [issues](https://github.com/windicss/vue-cli-plugin-windicss/issues) you find.
 
 ## Configuration
 
