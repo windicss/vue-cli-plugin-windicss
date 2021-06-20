@@ -23,6 +23,7 @@
   ],
   "scripts": {
     "dev:vue2": "yarn build && cd examples/vue2 && yarn serve",
+    "dev:vue3": "yarn build && cd examples/vue3 && yarn serve",
     "build": "yarn clean && bili src/index.ts",
     "clean": "rimraf dist",
     "test": "jest --coverage",
@@ -63,6 +64,6 @@
   },
   "dependencies": {
     "defu": "^4.0.1",
-    "windicss-webpack-plugin": "^1.0.0"
+    "windicss-webpack-plugin": "^1.1.0"
   }
 }
