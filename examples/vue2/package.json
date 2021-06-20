@@ -7,7 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "sass": "^1.35.1",
     "vue": "^2.6.11",
+    "vue-cli-plugin-import-components": "^1.0.2",
     "vue-cli-plugin-windicss": "../../"
   },
   "devDependencies": {

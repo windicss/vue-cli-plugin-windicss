@@ -7,6 +7,8 @@
   <img data-testid="smallImg" :src="require('./assets/image/small.svg')" alt="small svg" class="w-20 absolute left-1/2 top-45 z-20">
   <img data-testid="bigImg" :src="require('./assets/image/big.jpg')" alt="big jpg" class="w-120 h-120 transform transition-transform rounded-full mx-auto hover:(rotate-45)">
   <h2 class="bg-yellow-300 text-red-900 rounded p-3 shadow-xl mx-auto w-50 mt-10">h2 test</h2>
+  <PostcssScoped />
+  <CssScoped />
   <div class="prose prose-xl mx-auto py-10">
     <h3>Prose test</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet cupiditate distinctio eveniet, illum inventore ipsum itaque molestiae molestias neque nobis porro quam quo recusandae reiciendis rerum saepe totam ut!</p>
