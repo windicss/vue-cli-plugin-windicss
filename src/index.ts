@@ -21,6 +21,7 @@ const plugin: ServicePlugin = (api: PluginAPI, options: VueCliPluginWindiOptions
 
   // extend the base webpack configuration
   api.chainWebpack((webpackConfig) => {
+    // @ts-ignore
     webpackConfig.plugin('windicss').use(WindiCSSWebpackPlugin, [config])
   })
 
