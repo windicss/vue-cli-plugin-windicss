@@ -12,26 +12,26 @@ module.exports = {
     // @ts-ignore
     extend: {
       animation: {
-        fadeIn: 'fadeIn 200ms ease-in forwards'
+        fadeIn: 'fadeIn 200ms ease-in forwards',
       },
       keyframes: {
         fadeIn: {
           '0%': { opacity: 0 },
-          '100%': { opacity: 1 }
-        }
+          '100%': { opacity: 1 },
+        },
       },
       colors: {
         blue: {
-          '50': '#f2f6f9',
-          '100': '#e6edf3',
-          '200': '#bfd2e1',
-          '300': '#99b7ce',
-          '400': '#4d81aa',
-          '500': '#004b85',
-          '600': '#004478',
-          '700': '#003864',
-          '800': '#002d50',
-          '900': '#002541'
+          50: '#f2f6f9',
+          100: '#e6edf3',
+          200: '#bfd2e1',
+          300: '#99b7ce',
+          400: '#4d81aa',
+          500: '#004b85',
+          600: '#004478',
+          700: '#003864',
+          800: '#002d50',
+          900: '#002541',
         },
       },
     },
@@ -39,6 +39,6 @@ module.exports = {
   plugins: [
     formsPlugin,
     typographyPlugin,
-    aspectRatioPlugin
+    aspectRatioPlugin,
   ],
 }

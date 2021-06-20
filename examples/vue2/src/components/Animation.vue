@@ -2,11 +2,15 @@
   <div class="flex gap-4 w-full justify-center mt-12">
     <div class="w-40">
       <div class="pulse-class-2"></div>
-      <p class="text-center mt-2">class="pulse-class-2"</p>
+      <p class="text-center mt-2">
+        class="pulse-class-2"
+      </p>
     </div>
     <div class="w-40">
       <div class="pulse-class"></div>
-      <p class="text-center mt-2">class="pulse-class" (defined with @apply)</p>
+      <p class="text-center mt-2">
+        class="pulse-class" (defined with @apply)
+      </p>
     </div>
     <div class="w-40">
       <div

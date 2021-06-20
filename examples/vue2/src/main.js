@@ -5,5 +5,5 @@ import 'windi.css'
 Vue.config.productionTip = false
 
 new Vue({
-  render: function (h) { return h(App) },
+  render(h) { return h(App) },
 }).$mount('#app')
