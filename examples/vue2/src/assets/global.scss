@@ -1,0 +1,6 @@
+$full-vh: calc(100vh - var(--browser-address-bar, 0px));
+
+.container_height {
+  height: calc(#{$full-vh} - 140px);
+  overflow-y: auto;
+}

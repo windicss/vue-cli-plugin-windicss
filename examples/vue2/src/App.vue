@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full">
+  <div class="h-full container_height">
     <h1 data-testid="title" class="text-2xl font-bold text-center py-5 text-green-50 mb-10">
       Vue CLI Windi CSS Module
       <span>test</span>
