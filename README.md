@@ -30,6 +30,14 @@ Install using Vue CLI. (Vue CLI 4+ is recommended)
 vue add windicss
 ```
 
+### Import
+
+Make sure the import for Windi CSS is within your `main.js` file, the above should do it for you.
+
+```
+import 'windi.css'
+```
+
 ## Configuration
 
 You can change the behaviour of the plugin by modifying the options in `./vue.config.js`.
