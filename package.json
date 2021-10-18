@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-windicss",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Windi CSS for Vue CLI",
   "main": "index.js",
   "types": "dist",
