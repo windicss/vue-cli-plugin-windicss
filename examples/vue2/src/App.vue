@@ -29,3 +29,18 @@ span {
   @apply text-green-400;
 }
 </style>
+<style lang="scss">
+body {
+  background: #42b983;
+  div {
+    color: #ddd;
+  }
+  .father {
+    position: absolute;
+
+    ::v-deep .children {
+      height: 100%;
+    }
+  }
+}
+</style>
