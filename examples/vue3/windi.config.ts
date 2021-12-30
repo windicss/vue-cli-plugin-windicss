@@ -1,15 +1,16 @@
-const formsPlugin = require('windicss/plugin/forms')
-const typographyPlugin = require('windicss/plugin/typography')
-const aspectRatioPlugin = require('windicss/plugin/aspect-ratio')
+import { defineConfig } from "@windicss/plugin-utils";
 
-// @ts-ignore
-module.exports = {
+import formsPlugin from 'windicss/plugin/forms'
+import typographyPlugin from 'windicss/plugin/typography'
+import aspectRatioPlugin from 'windicss/plugin/aspect-ratio'
+
+
+export default defineConfig({
   theme: {
     fontFamily: {
       sans: ['Pangea', 'sans-serif'],
       serif: ['Pangea', 'serif'],
     },
-    // @ts-ignore
     extend: {
       animation: {
         fadeIn: 'fadeIn 200ms ease-in forwards',
@@ -40,5 +41,5 @@ module.exports = {
     formsPlugin,
     typographyPlugin,
     aspectRatioPlugin,
-  ],
-}
+  ]
+})
