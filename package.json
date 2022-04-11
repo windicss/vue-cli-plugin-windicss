@@ -22,9 +22,9 @@
     "windicss"
   ],
   "scripts": {
-    "dev:vue2": "yarn build && cd examples/vue2 && yarn serve",
-    "dev:vue3": "yarn build && cd examples/vue3 && yarn serve",
-    "build": "yarn clean && bili src/index.ts",
+    "dev:vue2": "pnpm build && cd examples/vue2 && yarn serve",
+    "dev:vue3": "pnpm build && cd examples/vue3 && yarn serve",
+    "build": "pnpm clean && bili src/index.ts",
     "clean": "rimraf dist",
     "test": "true",
     "release": "dotenv release-it --",
@@ -66,6 +66,6 @@
   },
   "dependencies": {
     "defu": "^4.0.1",
-    "windicss-webpack-plugin": "^1.6.2"
+    "windicss-webpack-plugin": "^1.6.9"
   }
 }
