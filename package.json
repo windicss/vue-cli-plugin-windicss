@@ -22,8 +22,8 @@
     "windicss"
   ],
   "scripts": {
-    "dev:vue2": "pnpm build && cd examples/vue2 && yarn serve",
-    "dev:vue3": "pnpm build && cd examples/vue3 && yarn serve",
+    "dev:vue2": "pnpm build && cd examples/vue2 && pnpm serve",
+    "dev:vue3": "pnpm build && cd examples/vue3 && pnpm serve",
     "build": "pnpm clean && bili src/index.ts",
     "clean": "rimraf dist",
     "test": "true",
@@ -51,7 +51,7 @@
     "@types/webpack": "^5.28.0",
     "@vue/cli-service": "^4.5.15",
     "@vue/cli-shared-utils": "^4.5.15",
-    "@windicss/plugin-utils": "^1.6.1",
+    "@windicss/plugin-utils": "^1.6.3",
     "bili": "^5.0.5",
     "chalk": "^4.1.2",
     "dotenv-cli": "^4.0.0",

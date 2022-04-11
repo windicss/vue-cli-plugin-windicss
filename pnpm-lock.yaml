@@ -9,7 +9,7 @@ specifiers:
   '@types/webpack': ^5.28.0
   '@vue/cli-service': ^4.5.15
   '@vue/cli-shared-utils': ^4.5.15
-  '@windicss/plugin-utils': ^1.6.1
+  '@windicss/plugin-utils': ^1.6.3
   bili: ^5.0.5
   chalk: ^4.1.2
   defu: ^4.0.1
