@@ -1,5 +1,5 @@
-import { ServicePlugin, PluginAPI } from '@vue/cli-service'
-import { UserOptions } from '@windicss/plugin-utils'
+import type { PluginAPI, ServicePlugin } from '@vue/cli-service'
+import type { UserOptions } from '@windicss/plugin-utils'
 import WindiCSSWebpackPlugin from 'windicss-webpack-plugin'
 import defu from 'defu'
 import type { VueCliPluginWindiOptions } from './types'
@@ -21,7 +21,7 @@ const plugin: ServicePlugin = (api: PluginAPI, options: VueCliPluginWindiOptions
 
   // extend the base webpack configuration
   api.chainWebpack((webpackConfig) => {
-    // @ts-ignore
+    // @ts-expect-error untyped
     webpackConfig.plugin('windicss').use(WindiCSSWebpackPlugin, [config])
   })
 
