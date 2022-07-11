@@ -1,7 +1,7 @@
 import type { PluginAPI, ServicePlugin } from '@vue/cli-service'
 import type { UserOptions } from '@windicss/plugin-utils'
 import WindiCSSWebpackPlugin from 'windicss-webpack-plugin'
-import defu from 'defu'
+import { defuArrayFn } from 'defu'
 import type { VueCliPluginWindiOptions } from './types'
 
 const plugin: ServicePlugin = (api: PluginAPI, options: VueCliPluginWindiOptions) => {
@@ -17,7 +17,7 @@ const plugin: ServicePlugin = (api: PluginAPI, options: VueCliPluginWindiOptions
     },
   }
 
-  const config = defu.arrayFn(options.pluginOptions?.windicss ?? {}, defaultConfig) as UserOptions
+  const config = defuArrayFn(options.pluginOptions?.windicss ?? {}, defaultConfig) as UserOptions
 
   // extend the base webpack configuration
   api.chainWebpack((webpackConfig) => {

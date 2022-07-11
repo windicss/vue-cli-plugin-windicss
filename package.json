@@ -46,15 +46,15 @@
     "@antfu/eslint-config": "^0.25.2",
     "@types/debug": "^4.1.7",
     "@types/loader-utils": "^2.0.3",
-    "@types/lodash": "^4.14.176",
+    "@types/lodash": "^4.14.182",
     "@types/node": "15.6.0",
     "@types/webpack": "^5.28.0",
-    "@vue/cli-service": "^4.5.15",
-    "@vue/cli-shared-utils": "^4.5.15",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/cli-shared-utils": "^5.0.8",
     "@windicss/plugin-utils": "^1.8.6",
     "bili": "^5.0.5",
     "chalk": "^4.1.2",
-    "dotenv-cli": "^4.0.0",
+    "dotenv-cli": "^6.0.0",
     "eslint": "^8.19.0",
     "loader-utils": "^2.0.0",
     "lodash": "^4.17.21",
@@ -65,7 +65,7 @@
     "upath": "^2.0.1"
   },
   "dependencies": {
-    "defu": "^4.0.1",
+    "defu": "^6.0.0",
     "windicss-webpack-plugin": "^1.7.4"
   }
 }
